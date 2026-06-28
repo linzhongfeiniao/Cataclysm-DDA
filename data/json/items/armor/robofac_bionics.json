@@ -5,8 +5,8 @@
     "type": "ITEM",
     "subtypes": [ "ARMOR", "TOOL", "ARTIFACT" ],
     "category": "armor",
-    "name": { "str": "Hub 01 LEG exoskeleton" },
-    "description": "The Hub 01 Lower Extremity Gaitframe, or LEG, a powered exoskeleton for the true frontier cyborg.  A metal frame runs along each of the legs, with clasps for the hips, femurs, and knees, twisting at the lower leg into a metal plate with additional straps for the shin.  The frame covering the knee and lower leg has clips custom-fit for Hub 01 greaves, and there is a hip-mounted battery compartment.  When powered, you can move 15% faster, traverse obstacles with 50% higher efficiency, and carry 20kg of extra weight.  Unpowered, they are a significant burden.  Activate them to toggle power.  Requires an XM-LEG Interface bionic to function.",
+    "name": { "str": "Hub 01 XM-LEG exoskeleton" },
+    "description": "The Hub 01 eXperiment Model-Lower Extremity Gaitframe, or XM-LEG, a powered exoskeleton for the true frontier cyborg.  A metal frame runs along each of the legs, with clasps for the hips, femurs, and knees, twisting at the lower leg into a metal plate with additional straps for the shin.  The frame covering the knee and lower leg has clips custom-fit for Hub 01 greaves, and there is a hip-mounted battery compartment.  When powered, you can move 15% faster, traverse obstacles with 50% higher efficiency, and carry 20kg of extra weight.  Unpowered, they are a significant burden.  Activate them to toggle power.  Requires an XM-LEG Interface bionic to function.",
     "weight": "1600 g",
     "volume": "5000 ml",
     "price": "400000 USD",
@@ -84,8 +84,8 @@
     "type": "ITEM",
     "subtypes": [ "ARMOR", "TOOL", "ARTIFACT" ],
     "category": "armor",
-    "name": { "str": "Hub 01 ARM exoskeleton" },
-    "description": "The Hub 01 Arm Reinforcement Motionframe, or ARM, a powered exoskeleton for the true frontier cyborg.  A metal frame runs along each of your arms and hands, with several straps at critical joints, twisting at the wrist into a glove-like matrix of steel.  The frame has a battery compartment and the elbows and lower arms have clips custom-fit for Hub 01 vambraces.  When powered, your arms are exceptionally stable, reducing firearm recoil by 30% and shot dispersion by 10%.  Moreover, you have better control over thrown objects, allowing you to throw objects 50% further and 25% harder.  Unpowered, they are a significant burden.  Activate them to toggle power.  Requires an XM-ARM Interface bionic to function.",
+    "name": { "str": "Hub 01 XM-ARM exoskeleton" },
+    "description": "The Hub 01 eXperiment Model-Arm Reinforcement Motionframe, or XM-ARM, a powered exoskeleton for the true frontier cyborg.  A metal frame runs along each of your arms and hands, with several straps at critical joints, twisting at the wrist into a glove-like matrix of steel.  The frame has a battery compartment and the elbows and lower arms have clips custom-fit for Hub 01 vambraces.  When powered, your arms are exceptionally stable, reducing firearm recoil by 30% and shot dispersion by 10%.  Moreover, you have better control over thrown objects, allowing you to throw objects 50% further and 25% harder.  Unpowered, they are a significant burden.  Activate them to toggle power.  Requires an XM-ARM Interface bionic to function.",
     "weight": "1600 g",
     "volume": "5000 ml",
     "price": "400000 USD",
@@ -162,8 +162,8 @@
     "type": "ITEM",
     "subtypes": [ "ARMOR", "TOOL", "ARTIFACT" ],
     "category": "armor",
-    "name": { "str": "Hub 01 BACK exoskeleton" },
-    "description": "The Hub 01 Biomechanical Assisted Carrying Kinetoframe, or BACK.  This powered exoskeleton anchors the Hub 01 ARM and LEG systems to each other, improving their function.  The metal frame crosses the shoulders, spine, and upper waist, with specialized clips for attaching it to compatible ARM and LEG exoskeletons.  When powered, the frame adapts to effectively distribute force, increasing carrying capacity by 35%, and modestly improving your ability to throw and absorb recoil.  If left unpowered, or if equipped without an ARM and a LEG, it is a significant burden.  Activate it to toggle power.",
+    "name": { "str": "Hub 01 XM-BACK exoskeleton" },
+    "description": "The Hub 01 eXperiment Model-Biomechanical Assisted Carrying Kinetoframe, or BACK.  This powered exoskeleton anchors the Hub 01 ARM and LEG systems to each other, improving their function.  The metal frame crosses the shoulders, spine, and upper waist, with specialized clips for attaching it to compatible ARM and LEG exoskeletons.  When powered, the frame adapts to effectively distribute force, increasing carrying capacity by 35%, and modestly improving your ability to throw and absorb recoil.  If left unpowered, or if equipped without an ARM and a LEG, it is a significant burden.  Activate it to toggle power.",
     "weight": "1600 g",
     "volume": "5000 ml",
     "price": "400000 USD",
@@ -209,11 +209,11 @@
               },
               {
                 "if": { "not": { "u_has_worn_with_flag": "ROBOFAC_ARM" } },
-                "then": { "u_message": "ERROR: NO ARM EXOSKELETON EQUIPPED" }
+                "then": { "u_message": "ERROR: NO XM-ARM EXOSKELETON EQUIPPED" }
               },
               {
                 "if": { "not": { "u_has_worn_with_flag": "ROBOFAC_LEG" } },
-                "then": { "u_message": "ERROR: NO LEG EXOSKELETON EQUIPPED" }
+                "then": { "u_message": "ERROR: NO XM-LEG EXOSKELETON EQUIPPED" }
               }
             ]
           }
