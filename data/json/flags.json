@@ -3054,26 +3054,26 @@
   {
     "id": "ROBOFAC_ARM",
     "type": "json_flag",
-    "info": "This item is a Hub 01 ARM exoskeleton.  It requires an implanted XM-ARM interface to function."
+    "info": "This item is a Hub 01 XM-ARM exoskeleton.  It requires an implanted XM-ARM interface to function."
   },
   {
     "id": "ROBOFAC_LEG",
     "type": "json_flag",
-    "info": "This item is a Hub 01 LEG exoskeleton.  It requires an implanted XM-LEG interface to function."
+    "info": "This item is a Hub 01 XM-LEG exoskeleton.  It requires an implanted XM-LEG interface to function."
   },
   {
     "id": "ROBOFAC_BACK",
     "type": "json_flag",
-    "info": "This item is a Hub 01 BACK exoskeleton.  It requires an implanted XM-LEG interface and it must be worn with ARM and LEG exoskeletons to function."
+    "info": "This item is a Hub 01 XM-BACK exoskeleton.  It requires an implanted XM-BACK interface and it must be worn with XM-ARM and XM-LEG exoskeletons to function."
   },
   {
     "id": "ROBOFAC_LENS_ACCESSORY",
     "type": "json_flag",
-    "info": "This item is an accessory for a Hub 01 LENS helmet, and can only be worn with that helmet."
+    "info": "This item is an accessory for a Hub 01 XM-LENS helmet, and can only be worn with that helmet."
   },
   {
     "id": "ROBOFAC_LENS_HELMET",
     "type": "json_flag",
-    "info": "This item allows you to wear Hub 01 LENS accessories."
+    "info": "This item allows you to wear Hub 01 XM-LENS accessories."
   }
 ]
