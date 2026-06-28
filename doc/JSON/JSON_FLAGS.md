@@ -236,8 +236,8 @@ Some armor flags, such as `WATCH` and `ALARMCLOCK` are compatible with other ite
 - ```ROBOFAC_ARM``` This item is a Hub 01 XM-ARM exoskeleton.  It requires an implanted XM-ARM interface to function.
 - ```ROBOFAC_BACK``` This item is a Hub 01 XM-BACK exoskeleton.  It requires an implanted XM-BACK interface and it must be worn with XM-ARM and XM-LEG exoskeletons to function.
 - ```ROBOFAC_LEG``` This item is a Hub 01 XM-LEG exoskeleton.  It requires an implanted XM-LEG interface to function.
-- ```ROBOFAC_LENS_ACCESSORY``` This item is an accessory for a Hub 01 LENS helmet, and can only be worn with that helmet.
-- ```ROBOFAC_LENS_HELMET``` This item allows you to wear Hub 01 LENS accessories.
+- ```ROBOFAC_LENS_ACCESSORY``` This item is an accessory for a Hub 01 XM-LENS helmet, and can only be worn with that helmet.
+- ```ROBOFAC_LENS_HELMET``` This item allows you to wear Hub 01 XM-LENS accessories.
 - ```ROLLER_INLINE``` Faster, but less stable overall, the penalty for non-flat terrain is even harsher.
 - ```ROLLER_ONE``` A less stable and slower version of `ROLLER_QUAD`, still allows the player to move faster than walking speed.
 - ```ROLLER_QUAD```The medium choice between `ROLLER_INLINE` and `ROLLER_ONE`, while it is more stable, and moves faster, it also has a harsher non-flat terrain penalty than `ROLLER_ONE`.
